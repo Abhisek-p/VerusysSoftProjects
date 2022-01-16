@@ -12,7 +12,9 @@ import javax.persistence.Table;
 
 import org.hibernate.annotations.GeneratorType;
 
+import lombok.Data;
 
+@Data
 @Entity
 @Table(name="SPRING_MOVIE_TABLE")
 public class Movie implements Serializable{
@@ -35,7 +37,7 @@ public class Movie implements Serializable{
 	}
 	public Movie() {
 	}
-	//setter and getter methods
+	/*//setter and getter methods
 	public Integer getMid() {
 		return mid;
 	}
@@ -65,7 +67,7 @@ public class Movie implements Serializable{
 		return "Movie [mid=" + mid + ", mname=" + mname + ", year=" + year + ", ratings=" + ratings + "]";
 	}
 	
-	
+*/	
 
 	
 }
